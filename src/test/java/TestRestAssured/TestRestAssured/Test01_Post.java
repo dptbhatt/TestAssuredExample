@@ -22,6 +22,7 @@ public class Test01_Post {
 		
 		 int statuscode = response.getStatusCode(); 
 		 Assert.assertEquals(statuscode, 200);
+		 System.out.println("done");
 		 
 		
 		
